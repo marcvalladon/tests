@@ -1,0 +1,53 @@
+// -*- adoc -*-
+DeveryMonitor Installation et Configuration
+===========================================
+:lang: fr
+:author: Deveryware® S.A.
+:date: {sys: date +%Y-%m}
+:copyright: Deveryware S.A.©
+:localdate: {sys: date +%Y-%m-%d}
+:backend: html
+:max-width: 1280px
+:icons:
+:imagesdir: images
+:iconsdir: images/icons
+:stylesdir: stylesheets
+:stylesheet: {sys: echo $PROJETS}/documents/templates/stylesheets/dwdoc.css
+:revnumber: 1
+:revdate: {sys: date +%Y-%m-%d}
+
+=== Présentation
+Ce document à pour but de définir l'installation de DeveryMonitor.
+
+DeveryMonitor se compose de trois parties principales :
+
+
+
+=== Sommaire
+
+. <<anchor-1,Pré-requis>> 
+.. Pré-requis pour l'installation
+.. Pré-requis pour le déploiement
+
+. <<anchor-2,Installation et configuration de Logic>> 
+. <<anchor-3,Installation et configuration de l'interface utilisateur (GUI)>> 
+
+
+[[anchor-1]]
+== Pré-requis 
+.Pré-requis pour la compilation
+****
+* JDK 1.7
+* MAVEN
+****
+.Pré-requis pour le déploiement
+****
+* Un serveur TOMCAT
+* Un serveur MONGODB
+****
+
+[[anchor-2]]
+== Installation et configuration de Logic
+
+[[anchor-3]]
+== Installation et configuration de l'interface utilisateur (GUI)
